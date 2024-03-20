@@ -17,7 +17,7 @@ body {
 }
 .container {
     padding-top: 50px;
-    width: 90%;
+    width: 98%;
     margin: 20px auto;
     background-color: #fff;
     border-radius: 4px;
@@ -72,9 +72,11 @@ float:right;
 position: relative;
 transition-duration: 0.4s;
 cursor: pointer;
+border-radius:3%;
+box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
 }
 button:hover{
-    background-color:rgb(30, 168, 30);
+    background-color:rgb(2, 182, 2);
 }
 h3{
     color:rgb(21, 182, 21);
