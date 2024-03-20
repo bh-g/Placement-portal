@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Applications</title>
-        <link rel="stylesheet" href="../../components/sidebar/style.css">
-    </head>
-    <body>
-        <div w3-include-html="../../components/sidebar/sidebar.html"></div>
-        <script src="../../script.js"></script>
 
-        <!--Components-->
-        <script src="../../components/sidebar/script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>My Applications</title>
+    <link rel="stylesheet" href="../../components/sidebar/style.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-    </body>
+<body>
+    <div w3-include-html="../../components/sidebar/sidebar.html"></div>
+    <div id="content">
+        <h1>My Applications</h1>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+        <table id="myTable">
+            <tr>
+                <th>Job Post</th>
+                <th>Company</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Google SWE Intern 2025</td>
+                    <td>Google</td>
+                    <td>Shortlisted</td>
+                    <td> <button class="seemore" onclick="">SEE MORE/ CHANGE RESUME</button></td>
+                </tr>
+                <tr>
+                    <td>Linkedin Intern 2025</td>
+                    <td>LinkedIn</td>
+                    <td>Applied</td>
+                    <td> <button class="seemore" onclick="">SEE MORE/ CHANGE RESUME</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../../script.js"></script>
+
+    <!--Components-->
+    <script src="../../components/sidebar/script.js"></script>
+    <script src="./script.js"></script>
+</body>
+
 </html>
