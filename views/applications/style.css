@@ -8,13 +8,6 @@
     border: 1px solid #ddd;
     margin-bottom: 12px;
   }
-
-#content {
-    padding: 10px 20px;
-    border: none;
-    margin-right: 20px;
-    border-radius: 4px;
-  }
   
 table {
     padding: 20px;
@@ -38,12 +31,23 @@ th, tr:hover{
     background-color: #f1f1f1;
 }
 
-/* Push the page content to the right when you open the side navigation */
 #content {
+    padding: 10px 20px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 4px;
     transition: margin-left .5s;
-    /* If you want a transition effect */
 }
 
-.button #seemore {
-    color: #38d39f;
+.seemore {
+    background-color: #38d39f;
+    border: none;
+    padding: 6px;
+}
+
+.seemore:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
 }
