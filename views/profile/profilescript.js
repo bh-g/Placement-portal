@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function getUserProfile(users){
     let x=Math.floor(Math.random()*10)%2;
-    let user=users[x]
+    let user=users[0]
 document.getElementById('firstname').textContent=user.firstname;
 document.getElementById('lastname').textContent=user.lastname;
 document.getElementById('batch').textContent=user.batch;
