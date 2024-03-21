@@ -10,8 +10,9 @@
   }
 
 #content {
-    padding: 0px 20px;
+    padding: 10px 20px;
     border: none;
+    margin-right: 20px;
     border-radius: 4px;
   }
   
@@ -41,8 +42,4 @@ th, tr:hover{
 #content {
     transition: margin-left .5s;
     /* If you want a transition effect */
-}
-
-body{
-    background-color: ;
 }
