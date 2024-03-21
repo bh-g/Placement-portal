@@ -12,10 +12,10 @@
     <div w3-include-html="../../components/sidebar/sidebar.html"></div>
     <div id="content">
         <h1>My Applications</h1>
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+        <input type="text" id="myInput" onkeyup="search()" placeholder="Search for jobs..">
         <table id="myTable">
             <tr>
-                <th>Job Post</th>
+                <th>Job Role</th>
                 <th>Company</th>
                 <th>Status</th>
                 <th></th>
@@ -25,22 +25,20 @@
                     <td>Google SWE Intern 2025</td>
                     <td>Google</td>
                     <td>Shortlisted</td>
-                    <td> <button class="seemore" onclick="">SEE MORE/ CHANGE RESUME</button></td>
+                    <td> <button class="seemore" onclick="">SEE MORE</button></td>
                 </tr>
                 <tr>
                     <td>Linkedin Intern 2025</td>
                     <td>LinkedIn</td>
                     <td>Applied</td>
-                    <td> <button class="seemore" onclick="">SEE MORE/ CHANGE RESUME</button></td>
+                    <td> <button class="seemore" onclick="">SEE MORE</button></td>
                 </tr>
 
             </tbody>
         </table>
     </div>
 
-    <script src="../../script.js"></script>
-
-    <!--Components-->
+    <script src="../../homePagescript.js"></script>
     <script src="../../components/sidebar/script.js"></script>
     <script src="./script.js"></script>
 </body>
