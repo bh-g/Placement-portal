@@ -29,7 +29,7 @@ const loginMessage = document.getElementById('login-message');
   
 	if (username === '036' && password === '036') {
 	  // Login successful, redirect to job postings page (replace with actual redirection)
-	  window.location.href = 'homePage.html';
+	  window.location.href = './views/jobs/jobs.html';
 	} else {
 	  loginMessage.textContent = 'Invalid username or password';
 	}
