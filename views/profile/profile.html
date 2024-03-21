@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
-    
+
     <link rel="stylesheet" type="text/css" href="styleprofile.css">
     <link rel="stylesheet" href="../../components/sidebar/style.css">
 </head>
 
 <body>
     <div w3-include-html="../../components/sidebar/sidebar.html"></div>
-    <div class="container">
-        
+    <div class="container" id="content">
+
         <button type="button" class="edit-profile">EDIT PROFILE</button>
         </br>
         </br>
@@ -23,53 +23,54 @@
             </p>
         </div>
         <img class="profile-img" src="profile-pic.jpg" alt="Profile Picture">
-       
+
         <div class="profile-info">
             <div class="thinline"></div>
             <div class="card">
-            <h3>Basic Details</h3>
-            <div class="thinline2"></div>
-  <p><strong>First Name:</strong><span id="firstname"></span></p>
-  <p><strong>Last Name:</strong><span id="lastname"></span></p>
+                <h3>Basic Details</h3>
+                <div class="thinline2"></div>
+                <p><strong>First Name:</strong><span id="firstname"></span></p>
+                <p><strong>Last Name:</strong><span id="lastname"></span></p>
 
-<p><strong>Date of Birth:</strong><span id="dob"></span></p>
-<p><strong>Gender:</strong><span id="gender"></span>Female</p>
-<p><strong>Address:</strong><span id="address"></span></p>
-<p><strong>Personal Email Id:</strong><span id="pmail"></span></p>
-<p><strong>College Email Id:</strong><span id="cmail"></span></p>
-<p><strong>Contact Number:</strong><span id="contact"></span></p>
-<p><strong>Aadhar Number:</strong><span id="aadhar"></span></p>
-</div>
-<div class="card">
-<h3>Academic Details</h3>
-<div class="thinline2"></div>
-<p><strong>CGPA:</strong><span id="cgpa"></span></p>
+                <p><strong>Date of Birth:</strong><span id="dob"></span></p>
+                <p><strong>Gender:</strong><span id="gender"></span>Female</p>
+                <p><strong>Address:</strong><span id="address"></span></p>
+                <p><strong>Personal Email Id:</strong><span id="pmail"></span></p>
+                <p><strong>College Email Id:</strong><span id="cmail"></span></p>
+                <p><strong>Contact Number:</strong><span id="contact"></span></p>
+                <p><strong>Aadhar Number:</strong><span id="aadhar"></span></p>
+            </div>
+            <div class="card">
+                <h3>Academic Details</h3>
+                <div class="thinline2"></div>
+                <p><strong>CGPA:</strong><span id="cgpa"></span></p>
 
-<p><strong>Active Backlogs:</strong><span id="activebacklog"></span></p>
-<p><strong>Dead Backlogs:</strong><span id="deadbacklog"></span></p>
-<p><strong>Batch :</strong><span id="batch"></span></p>
-<p><strong>Branch:</strong><span id="branch"></span></p>
-<p><strong>Resume:</strong><span id="resume"> <embed id="pdfEmbed" type="application/pdf" width=30px height=30px src="https://www.tutorialspoint.com/python3/python_tutorial.pdf"></span></p>
-</div>
-<div class="card">
-  
-     <h3>Mother's Information</h3>
-     <div class="thinline2"></div>
-<p><strong>Mother's Name:</strong><span id="mothername"></span></p>
-<p><strong>Mother's Contact Number:</strong><span id="mothernum"></span></p>
-<p><strong>Mother's Occupation:</strong><span id="motherwork"></span></p>
-</div>
-<div class="card">
+                <p><strong>Active Backlogs:</strong><span id="activebacklog"></span></p>
+                <p><strong>Dead Backlogs:</strong><span id="deadbacklog"></span></p>
+                <p><strong>Batch :</strong><span id="batch"></span></p>
+                <p><strong>Branch:</strong><span id="branch"></span></p>
+                <p><strong>Resume:</strong><span id="resume"> <embed id="pdfEmbed" type="application/pdf" width=30px
+                            height=30px src="https://www.tutorialspoint.com/python3/python_tutorial.pdf"></span></p>
+            </div>
+            <div class="card">
+
+                <h3>Mother's Information</h3>
+                <div class="thinline2"></div>
+                <p><strong>Mother's Name:</strong><span id="mothername"></span></p>
+                <p><strong>Mother's Contact Number:</strong><span id="mothernum"></span></p>
+                <p><strong>Mother's Occupation:</strong><span id="motherwork"></span></p>
+            </div>
+            <div class="card">
 
 
-            <h3>Father's Information</h3>
-        <div class="thinline2"></div>
-            <p><strong>Father's Name:</strong><span id="fathername"></span></p>
-            <p><strong>Father's Occupation:</strong><span id="fatherwork"></span></p>
-            <p><strong>Father's Contact Number:</strong><span id="fathernum"></span></p>
+                <h3>Father's Information</h3>
+                <div class="thinline2"></div>
+                <p><strong>Father's Name:</strong><span id="fathername"></span></p>
+                <p><strong>Father's Occupation:</strong><span id="fatherwork"></span></p>
+                <p><strong>Father's Contact Number:</strong><span id="fathernum"></span></p>
 
-</div>   
-     </div>
+            </div>
+        </div>
     </div>
     <script src="profilescript.js"></script>
     <script src="../../homePagescript.js"></script>

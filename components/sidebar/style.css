@@ -2,7 +2,7 @@
   background-color: #38d39f;
   text-align: center;
   font-size: 18px;  
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 /* The sidebar menu */
@@ -40,8 +40,9 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-  color: #f1f1f1;
+.pages a:hover {
+  background-color: grey;
+  color: black;
 }
 
 /* Position and style the close button (top right corner) */
@@ -51,6 +52,10 @@
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+.sidebar .closebtn:hover{
+  color: #ffff;
 }
 
 /* The button used to open the sidebar */
@@ -88,4 +93,31 @@
     text-align: center;
     float: none;
   }
+}
+
+.logout{
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  position: absolute;
+  top: 20px;
+  right:20px;
+
+}
+
+.logout:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }

@@ -80,4 +80,3 @@ function closeNav() {
     document.getElementById("content").style.marginLeft = "0";
 
 }
-
