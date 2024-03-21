@@ -81,11 +81,11 @@ h1 {
 }
 
 .edit-profile:hover {
-    background-color: rgb(2, 182, 2);
+    background-color:#38d39f;
 }
 
 h3 {
-    color: rgb(21, 182, 21);
+    color: #38d39f;
 }
 .card{
     align-items: center;
