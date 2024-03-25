@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             deadline: "January 15, 2024",
             cutoff: "7.5 CGPA",
             branchesAllowed: "CSE, ECE",
-            stipend: "$1000 per month"
+            stipend: "RS 1,00,000 per month"
         },
         {
             companyName: "Company B",
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
             deadline: "February 15, 2024",
             cutoff: "8.0 CGPA",
             branchesAllowed: "EEE, Mech",
-            stipend: "$1200 per month"
+            stipend: "RS 1,12,000 per month"
         },
         {
             companyName: "Company C",
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             deadline: "March 15, 2024",
             cutoff: "7.8 CGPA",
             branchesAllowed: "CSE, Mech",
-            stipend: "$1100 per month"
+            stipend: "RS 75,00 per month"
         }
     ];
 
