@@ -34,8 +34,8 @@ function search() {
 
 /* let applications =[{
     jobPost:'Google SWE Intern 2025', company: 'Google',
-status: 'Shortlisted', details: "#"}] */
-
+status: 'Shortlisted', details: "#"}]
+ */
 /* function filter() {
   var input, filter, table, tr, td, i;
   input = document.getElementById("mylist");
