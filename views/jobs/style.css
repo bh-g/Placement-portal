@@ -1,4 +1,16 @@
-.card-wrapper {
+h1 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+    .card-wrapper {
     width: calc(33.33% - 20px);
     /* Adjusted width for three cards in a row */
     height: 200px;
@@ -43,7 +55,7 @@
 .card-back button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #38d39f;
     color: white;
     border: none;
     cursor: pointer;
@@ -51,7 +63,7 @@
 }
 
 .card-back button:hover {
-    background-color: #45a049;
+    background-color: #38d39f;
 }
 
 .card-back {
