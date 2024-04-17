@@ -4,7 +4,7 @@ In colleges, the training and placement cell is crucial. The creation of a web p
 
 
 ## Video Demo:
-[Video](https://vimeo.com/935426605?share=copy)
+Link: [https://vimeo.com/935426605?share=copy](https://vimeo.com/935426605?share=copy)
 
 ## Screens:
 
